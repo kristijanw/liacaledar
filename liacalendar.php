@@ -64,6 +64,8 @@ register_deactivation_hook( __FILE__, 'deactivate_liacalendar' );
  */
 require plugin_dir_path( __FILE__ ) . 'includes/class-liacalendar.php';
 
+require plugin_dir_path( __FILE__ ) . 'calendar/calendar.php';
+
 /**
  * Begins execution of the plugin.
  *
